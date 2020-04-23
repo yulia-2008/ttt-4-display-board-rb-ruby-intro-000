@@ -30,7 +30,7 @@ describe "#display_board in 'lib/display_board.rb" do
     end
 
     it 'prints a board with O in the top left' do
-      board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
+      board = ["O', " ", " ", " ", " ", " ", " ", " ", " "]
       # Leave hint for assigning the 0 index value of O
       board[0] = "O"
 
